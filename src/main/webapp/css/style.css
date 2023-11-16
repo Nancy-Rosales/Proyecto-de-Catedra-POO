@@ -1,0 +1,250 @@
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: none;
+  font-family: "Poppins", sans-serif;
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.swiper-button-prev::after{
+  font-size: 25px;
+}
+.swiper-button-next::after{
+  font-size: 25px;
+}
+.swiper-button-next{
+  font-size: 25px;
+}
+.swiper-button-next{
+  color: rgb(255, 255, 255);
+}
+.swiper-button-prev{
+  color: rgb(255, 255, 255);
+}
+.menu{
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.navbar{
+  display: flex;
+}
+.menu-1{
+  background-color: rgb(46, 8, 8);
+  margin-right: 100px;
+  width: 800px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+}
+.logo-1{
+  margin-right: 40px;
+  width: 50px;
+  height: 50px;
+}
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 30px;
+  color: rgb(255, 255, 255);
+  display: block;
+}
+.menu .navbar ul li a:hover{
+  color: rgb(142, 145, 146);
+}
+#menu{
+  display: none;
+}
+.menu-icono{
+  width: 25px;
+}
+.menu label{
+  cursor: pointer;
+  display: none;
+}
+.btn-1 {
+  background-color: rgb(46, 8, 8);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  border-radius: 40px;
+  border: none;
+  width: 150px;
+  height: 45px;
+  text-align: center;
+  padding-top: 7px;
+  margin-left: 30px;
+}
+.btn-1:hover{
+  color: rgb(142, 145, 146);
+}
+#menu{
+  display: none;
+}
+.menu-icono{
+  width: 25px;
+}
+.menu label{
+  cursor: pointer;
+  display: none;
+}
+.header-content{
+  margin-top: 200px;
+  padding-bottom: 50px;
+}
+.slider{
+  display: flex;
+  align-items: center;
+}
+.slider-txt{
+  margin-left: 85px;
+  width: 50%;
+}
+.slider-txt h1{
+  font-size: 70px;
+  color: azure;
+  text-transform: lowercase;
+  font-weight: 800;
+}
+.slider-txt p{
+  font-size: 18px;
+  color: rgb(211, 211, 211);
+}
+.slider-txt2{
+  margin-left: 85px;
+  width: 50%;
+}
+.slider-txt2 h1{
+  font-size: 50px;
+  color: azure;
+  text-transform: lowercase;
+  font-weight: 800;
+}
+.slider-txt2 p{
+  font-size: 18px;
+  color: rgb(211, 211, 211);
+}
+.botones {
+  margin-top: 50px;
+}
+.btn-2 {
+  display: inline-block;
+  padding: 15px 35px;
+  border: 2px solid rgb(46, 8, 8);
+  color: rgb(246, 253, 255);
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-right: 20px;
+  border-radius: 50px;
+  font-size: 15px;
+}
+.btn-2:hover{
+  background-color: rgb(46, 8, 8);
+}
+.slider-img{
+  width: 50%;
+}
+.slider-img img{
+  border-radius: 23%;
+  margin-right: 225px;
+  width: 500px;
+}
+.slider-img img:hover{
+  box-shadow: 2px 7px 30px rgb(46, 8, 8);
+}
+
+
+
+.pie-pagina{
+  background-color: rgba(46, 8, 8, 0.877);
+  margin-top: auto;
+  align-items: center;
+}
+.pie-pagina .grupo-1{
+  width:100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) ;
+  grid-gap: 10px;
+  padding: 15px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box h2{
+  color: rgb(211, 211, 211);
+  font-size: 13px;
+}
+.pie-pagina .grupo-1 .box h3{
+  color: rgb(211, 211, 211);
+  font-size: 15px;
+}
+
+.select-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 0;
+  margin-right: 20px;
+}
+
+.select-container select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  border: 2px solid rgb(46, 8, 8);
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(46, 8, 8);
+  outline: none;
+}
+
+.select-container::after {
+  content: '\25BC';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: white;
+}
