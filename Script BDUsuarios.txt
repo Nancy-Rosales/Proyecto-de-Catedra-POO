@@ -1,0 +1,28 @@
+CREATE DATABASE cineburger
+
+USE cineburger
+
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    contrasena VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE entradas(
+nombre varchar(12) NOT NULL,
+dui int(7) NOT NULL PRIMARY KEY,
+numero int(8) NOT NULL,
+txtcantA int(2) NOT NULL,
+txtcantB int(2) NOT NULL
+)
+
+CREATE TABLE sucursal(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombresucursal VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE salas(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    sillas VARCHAR(50) NOT NULL
+);
